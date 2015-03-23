@@ -30,6 +30,7 @@ string ParametersReader::findString(string opt)
 	{
 		throw Empty();
 	}
+	return " ";
 }
 
 std::vector<int> ParametersReader::findVector(string opt)
